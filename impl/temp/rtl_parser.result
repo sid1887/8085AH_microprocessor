@@ -1,10 +1,20 @@
 [
  {
   "InstFile" : "/home/siddharth/FPGA/mp8085/src/mp8085.v",
-  "InstLine" : 1,
+  "InstLine" : 102,
   "InstName" : "mp8085",
   "ModuleFile" : "/home/siddharth/FPGA/mp8085/src/mp8085.v",
-  "ModuleLine" : 1,
-  "ModuleName" : "mp8085"
+  "ModuleLine" : 102,
+  "ModuleName" : "mp8085",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/siddharth/FPGA/mp8085/src/mp8085.v",
+    "InstLine" : 116,
+    "InstName" : "alu_inst",
+    "ModuleFile" : "/home/siddharth/FPGA/mp8085/src/mp8085.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "alu_8085"
+   }
+  ]
  }
 ]

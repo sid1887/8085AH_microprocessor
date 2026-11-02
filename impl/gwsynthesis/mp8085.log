@@ -1,0 +1,70 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/siddharth/FPGA/mp8085/src/mp8085.v'
+Compiling module 'mp8085'("/home/siddharth/FPGA/mp8085/src/mp8085.v":102)
+Compiling module 'alu_8085'("/home/siddharth/FPGA/mp8085/src/mp8085.v":10)
+WARN  (EX1998) : Net 'bus_sel[3]' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":111)
+WARN  (EX1998) : Net 'A_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'B_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'C_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'D_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'E_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'F_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'H_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'L_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'W_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'Z_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'TR_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+WARN  (EX1998) : Net 'IR_load' does not have a driver("/home/siddharth/FPGA/mp8085/src/mp8085.v":112)
+NOTE  (EX0101) : Current top module is "mp8085"
+WARN  (EX0211) : The output port "UA[7]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[6]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[5]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[4]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[3]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[2]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[1]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "UA[0]" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":103)
+WARN  (EX0211) : The output port "S0" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "S1" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "M_" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "RD_" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "WR_" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "HLDA" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "INTA_" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "RESET_OUT" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "SOD" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "CLK" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+WARN  (EX0211) : The output port "ALE" of module "mp8085" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/siddharth/FPGA/mp8085/src/mp8085.v":105)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input READY is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input HOLD is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input INTR is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input RST_55 is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input RST_65 is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input RST_75 is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input TRAP is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input RESET_IN_ is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input X1 is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input X2 is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0016) : Input SID is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":106)
+WARN  (CV0017) : Inout AD is unused("/home/siddharth/FPGA/mp8085/src/mp8085.v":104)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "alu_8085" instantiated to "alu_inst" is swept in optimizing("/home/siddharth/FPGA/mp8085/src/mp8085.v":127)
+[95%] Generate netlist file "/home/siddharth/FPGA/mp8085/impl/gwsynthesis/mp8085.vg" completed
+[100%] Generate report file "/home/siddharth/FPGA/mp8085/impl/gwsynthesis/mp8085_syn.rpt.html" completed
+GowinSynthesis finish
